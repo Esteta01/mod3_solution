@@ -14,18 +14,18 @@
 
 <header>
   <nav id="header-nav" class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-    <div class="container">
+    <div class="container-fluid">
+      <a class="navbar-brand text-left float-left" href="index.html"><h1>Food, LLC</h1></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>    
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          <li class="nav-item visible-xs active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
@@ -37,8 +37,7 @@
               <a class="dropdown-item" href="sushi_page.html">Sushi</a>
             </div>
           </li>
-      
-        </ul>
+          </ul>
     </div>
   </nav>  
 
@@ -46,27 +45,31 @@
 
   	<div id='our_menu' class='text-center'>Our Menu</div><br>
 
-  	<div id='main-content' class='box'>
-      <div id="chicken-tile"><span>Chicken</span><a class="nav-link" href="chicken_page.html"><br>
-      <br>
-       <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></a>
+  	<div id='main-content' class='row'>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="chicken-tile"><span>Chicken</span><a class="nav-link" href="chicken_page.html"><br>
+        <br>
+        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></a>
   		</div>
+    </div>
   		
+    <div class="col-md-4 col-sm-6 col-xs-12">
       <div id="beef-tile"><span>Beef</span><a class="nav-link" href="beef_page.html"><br>
-      <br>
-       <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></a>
-   		</div>
+        <br>
+        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></a>
+   		 </div>
+     </div>
 
-  		<div id="sushi-tile"><span>Sushi</span><a class="nav-link" href="sushi_page.html"><br>
-      <br>
-       <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></a>
+  	<div class="col-md-4 col-sm-6 col-xs-12">
+    	<div id="sushi-tile"><span>Sushi</span><a class="nav-link" href="sushi_page.html"><br>
+        <br>
+        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></a>
    		</div>
   	</div>
 
-
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="../js/jquery-3.5.1.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="../js/script.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

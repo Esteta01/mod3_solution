@@ -134,11 +134,10 @@ body {
 }
 
 /**************Desktop version of the site = 992px and above***********/
-
-@media (min-width: 992px){
+/* Large as per Bootstrap*/
+  @media (min-width: 992px){
   #chicken-tile, #beef-tile, #sushi-tile {
   align-content: center;
-  width: 30%;
   position: relative;
   border: 2px solid #3F0C1F;
   float: left;
@@ -147,10 +146,9 @@ body {
 }
 
 /**************Tablet version between 768px and 991px, inclusively***********/
-
-@media (min-width: 768px ) and (max-width: 991px){
+/* Medium as per Bootstrap*/
+@media (min-width: 768px ) and (max-width: 991.98px){
   #chicken-tile {
-  width: 40%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
@@ -158,14 +156,12 @@ body {
   margin-right: 3%;
 }
   #beef-tile {
-  width: 40%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
   float: left;
  }
   #sushi-tile {
-  width: 83%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
@@ -175,10 +171,9 @@ body {
 }
 
 /**************Mobile version width of the browser is equal to or less than 767px ***********/
-
-@media (max-width: 767px){
-#chicken-tile, #beef-tile, #sushi-tile {
-  width: 99%;
+/* Small as per Bootstrap*/
+  @media (max-width: 767.98px){
+  #chicken-tile, #beef-tile, #sushi-tile {
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;

@@ -71,6 +71,7 @@ body {
 /* END HEADER */
 
 
+
 /* START BODY */
   #our_menu {
   width: 100%;
@@ -87,7 +88,7 @@ body {
   bottom: 1;
   right: 0;
   text-align: left;
-  font-size: 150%;
+  font-size: 120%;
   text-transform: uppercase;
   background-color: #66777f;
   color: #fff;
@@ -95,10 +96,11 @@ body {
 }
   #beef-tile span {
   position: absolute;
+  width: 100%;
   bottom: 1;
   right: 0;
-  text-align: left;
-  font-size: 120%;
+  text-align: center;
+  font-size: 150%;
   text-transform: uppercase;
   background-color: #ffa600;
   color: #fff;
@@ -115,10 +117,6 @@ body {
   background-color: #fe90c3;
   color: #fff;
   opacity: .7;
-}
-
-#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
-  box-shadow: 0 1px 5px 1px #a6ff00;
 }
 
 #chicken-tile p, #beef-tile p, #sushi-tile p {
@@ -138,7 +136,6 @@ body {
 @media (min-width: 992px){
   #chicken-tile, #beef-tile, #sushi-tile {
   align-content: center;
-  width: 99%;
   position: relative;
   border: 2px solid #3F0C1F;
   float: left;
@@ -150,7 +147,6 @@ body {
 
 @media (min-width: 768px ) and (max-width: 991px){
   #chicken-tile {
-  width: 40%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
@@ -158,14 +154,12 @@ body {
   margin-right: 3%;
 }
   #beef-tile {
-  width: 40%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
   float: left;
  }
   #sushi-tile {
-  width: 99%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
@@ -178,7 +172,6 @@ body {
 
 @media (max-width: 767px){
 #chicken-tile, #beef-tile, #sushi-tile {
-  width: 99%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
